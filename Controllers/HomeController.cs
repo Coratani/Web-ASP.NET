@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using P1_ASP.Models;
+using P1_ASP.Services;
 using System.Diagnostics;
+using P1_ASP.Controllers;
 
 namespace P1_ASP.Controllers
 {
@@ -23,6 +25,12 @@ namespace P1_ASP.Controllers
         public IActionResult Privacy()
         {
             
+            return View();
+        }
+
+        public IActionResult Proyectos()
+        {
+            ViewBag.Vproyecto = new RepositoryOfProjects().GetProjects();
             return View();
         }
 
