@@ -2,8 +2,117 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">@ViewBag.Vname</h1>
-    <h2>Voy a ser un buen programador de ASP</h2>
-    <img src="img/_05A.jpg" id="foto"/>
+<div class="row">
+    <div id="presentation" class="col-12 d-flex text-center neonBlue">
+        <section>
+            <h1>Antonio Zamacona Vazquez</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis deserunt esse eveniet
+                exercitationem in
+                iusto,
+                laborum provident quo ut voluptas! Commodi, provident, quibusdam? Accusamus aliquam beatae facilis
+                maxime
+                mollitia voluptatum?
+            </p>
+        </section>
+    </div>
 </div>
+
+<!-- END WELCOME SECTION -->
+<!-- START PROJECTS SECTION -->
+<div id="projects" class="row neonPink  ">
+    <div class="col-12 align-items-center ">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade m-1 text-center" data-bs-ride="carousel">
+            <div class="carousel-inner ">
+                <div class="carousel-item active  ">
+                    <iframe class="responsive-iframe" src="Projects/FCB/FBC.html"></iframe>
+                </div>
+                <div class="carousel-item text-center ">
+                    <iframe class="responsive-iframe" src="Projects/Gestalt/index.html"></iframe>
+                </div>
+                <div class="carousel-item ">
+                    <iframe class="responsive-iframe"
+                            src="Projects/VaultTec/index.html"></iframe>
+                </div>
+            </div>
+            <button class="carousel-control-prev neonText " type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="prev">
+                <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                </div>
+                <div class="carousel-item">
+                </div>
+                <div class="carousel-item">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- END PROJECTS SECTION -->
+<!-- START CONTACT SECTION -->
+<div class="row" id="contactForm">
+    <div class="col-6 d-flex justify-content-center">
+        <section>
+            <form class="neonBlue">
+                <h1>Contacto</h1>
+                <ul id="contactInput">
+                    <li>
+                        <label for="formName">Name: </label>&nbsp;&nbsp;<input type="text" maxlength="15" max="15"
+                                                                               id="formName">&nbsp;&nbsp; <label for="formEmail">E-mail&nbsp;</label><input type="email" id="formEmail">
+                    </li>
+                    <br>
+                    <li><label>Subject: </label><input type="text" maxlength="15"></li>
+                    <br>
+                    <li><textarea rows="4" cols="22" maxlength="80"></textarea></li>
+                </ul>
+                <button type="submit" id="contact"><label for="contact">Submit</label></button>
+            </form>
+        </section>
+    </div>
+    <div class="col-6">
+        <section>
+            <section class="gmap_canvas">
+                <iframe width="400" height="200" id="gmap_canvas"
+                        src="https://maps.google.com/maps?q=carrer%20de%20monlau%206&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                <a href="https://123movies-to.org"></a><br>
+                <style>
+                    .mapouter {
+                        position: center;
+                        text-align: center;
+                        height: 200px;
+                        width: 696px;
+                    }</style>
+                <a href="https://www.embedgooglemap.net">embedgooglemap.net</a>
+                <style>
+                    .gmap_canvas {
+                        overflow: hidden;
+                        align-self: center;
+                        background: none !important;
+                        height: 200px;
+                        width: 690px;
+                    }</style>
+            </section>
+        </section>
+    </div>
+</div>
+<!-- END CONTACT SECTION -->
+<!-- START FOOTER SECTION -->
+<div class="row">
+    <footer>
+        <h3>Antonio Zamacona Vazquez &copy;2022</h3>
+    </footer>
+</div>
+<!-- END FOOTER SECTION --></div>
