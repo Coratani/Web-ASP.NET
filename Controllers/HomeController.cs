@@ -28,6 +28,7 @@ namespace P1_ASP.Controllers
             return View();
         }
         public IActionResult Experience() {
+            ViewBag.Vjobs = new RepositoryOfJobs().GetJobs();
             return View();
         }
         public IActionResult Proyectos()
@@ -36,6 +37,7 @@ namespace P1_ASP.Controllers
             return View();
         }
         public IActionResult AcademicExperience() {
+            
             return View();
         }
         public IActionResult TechnicalKnowledge() {

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/P1_ASP.styles.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/MyStyleSheet.css" asp-append-version="true" />
+    <script src="https://kit.fontawesome.com/7652d2555d.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -47,9 +48,23 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2022 - P1_ASP - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    <footer class="border-top footer bg-dark text-center">
+        <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-2">
+                <!-- Linkedin -->
+                <a class="btn btn-outline-light btn-floating m-1 pb-0" href="https://es.linkedin.com/" role="button">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <!-- Github -->
+                <a class="btn btn-outline-light btn-floating m-1 pb-0" href="https://github.com/" role="button">
+                    <i class="fab fa-github"></i>
+                </a>
+            </section>
+        </div>
+        <!-- Copyright -->
+        <div class="text-center p-3 copy text-light">
+            © 2022 Copyright
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
