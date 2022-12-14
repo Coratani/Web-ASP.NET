@@ -1,0 +1,55 @@
+
+<div><img src="" alt=""></div>
+<nav aria-hidden="false">
+    <ul id="primary-navigation" class="primary-navigation flex">
+        <li>
+            <a href="">Home</a>
+        </li>
+        <li>
+            <a href="">Home</a>
+        </li>
+        <li>
+            <a href="">Home</a>
+        </li>
+    </ul>
+</nav>
+
+
+*viejo menu
+<header class="primary-header"> 
+    <button  class="logo button" onclick="toggleHidden('menu')"><img src="img/logo.png" alt=""></button>
+    <nav id="menu"  >
+        <ul class="primary-navigation flex">
+            <li></li>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="#news">News</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+.button{
+    border-radius: 50%;
+    position: fixed;
+    background: none;
+    border: none;
+    /*Creditos por la imagen: Timothy Miller - https://www.iconfinder.com/icons/134216/hamburger_lines_menu_icon, Public Domain, https://commons.wikimedia.org/w/index.php?curid=50764696*/
+
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 9999;
+    border: 0;
+    width: 1rem;
+    aspect-ratio: 1;
+    top: 2rem;
+    right: 3rem;
+    align-items:center; 
+    max-height: 20vw;
+    transform: translateX(50%);
+    transition: transform 350ms ease-in;
+}

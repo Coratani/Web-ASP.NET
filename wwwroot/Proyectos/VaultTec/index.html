@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- Fuente parecida a Roboto ya que esta es de pago-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <title>Pagina web responsive</title>
+    <script src="nav.js"></script>
+</head>
+<body>
+    <header class="primary-header flex">
+        <button class="logo button" onclick="toggleHidden('menu')"><img  src="img/logo.png" alt=""></button>
+        <nav  id="menu"  aria-hidden="false">
+            <ul class="primary-navigation flex">
+                <li>
+                    <a href="#index">Home</a>
+                </li>
+                <li>
+                    <a href="news">News</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        
+    </header>
+ <section class="primero">
+     <div class="container">
+         <h2 class="text-center">Sign-up now!!</h2>
+         <div class="split">
+            <div><video src="vid/anunciovid.mp4" autoplay muted loop></video></div>
+            <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum consectetur consequatur itaque quos explicabo recusandae. Nihil ut odio quae perferendis officia, aspernatur reiciendis molestiae excepturi? Pariatur deserunt id, laborum ipsum, illo veritatis necessitatibus, debitis cumque quisquam soluta labore quasi. Cupiditate nam totam corrupti consectetur, voluptatem accusamus voluptate at rerum libero natus recusandae voluptatibus aliquid possimus enim, impedit eaque consequatur consequuntur maxime odio dolores vel ullam fugiat mollitia quisquam? Iste soluta suscipit animi expedita ipsum illum distinctio! Quas alias ad eveniet tenetur neque totam distinctio recusandae, odit ducimus unde modi iure nemo iusto aut necessitatibus fuga odio ab et dolore impedit!
+            </p></div>
+         </div>
+     </div>
+ </section>
+
+
+ <section class="medio">
+     <div class="container"> 
+         <div class="split ">
+             <div>
+                 <h2 class="text-center">Prepare for the future</h2>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, sequi quod officiis inventore mollitia delectus.</p>
+             </div>
+             <div>
+                 <img src="img/medio1.png" alt="arbol">
+             </div>
+         </div>
+     </div>
+ </section>
+<section class="medio1">
+    <div class="container">
+        <div class="split">
+            <div>
+                <img src="img/Votf.webp" alt="">
+            </div>
+            <div>
+                <h2>The vault of the future</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime tenetur hic quis consectetur autem soluta ducimus, exercitationem reiciendis totam ab qui fugiat expedita laborum itaque suscipit voluptatem fugit voluptas voluptates, temporibus debitis molestiae magnam cum incidunt veritatis! Perspiciatis nemo esse dicta porro soluta adipisci. Modi explicabo dolorem ipsam molestias autem.</p>
+            </div>
+           
+        </div>
+    </div>
+</section>
+ <section class="baja">
+     <div class="container">
+         <div class="split">
+            <div class="sponsor text-center"><h2>Sponsored By Nuka cola</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci inventore pariatur ipsam esse, iste nam commodi reprehenderit eius ab. Omnis veniam illo molestiae culpa ipsa nam nostrum necessitatibus deleniti delectus doloremque id impedit tenetur reprehenderit, harum accusantium velit laborum explicabo corrupti! Ut necessitatibus et omnis asperiores non deleniti nulla mollitia!</p>
+            </div>
+            <div><img id="grande" src="img/anuncio2.jpg" alt="Anuncio">
+            </div>
+         </div>
+     </div>
+     
+ </section>
+ <!-- El anuncio desaparece al hacer clic en el -->
+    <aside id="aside" onclick="hideAdd('aside')">
+        <img  src="img/anuncio.jpg" alt="">
+    </aside>
+
+ <section class="footer">
+    <div id="contact" class="flex">
+            <div><p>Vault-tec Promotional Division</p></div>
+            <div><p>1-888-4-VAULT-TEC</p></div>
+     </div>
+ </section>
+</body>
+
+</html>

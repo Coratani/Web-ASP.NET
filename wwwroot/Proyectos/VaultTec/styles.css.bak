@@ -1,0 +1,78 @@
+/*Copia de seguridad de los estilos en caso de que rompa algo XD*/
+body{
+    background-image: url('/img/fondo.png');
+    background-size:auto;
+    
+}
+div img{
+    max-width: 10vw;
+    max-height: 10vw;
+}
+ul{
+    list-style-type: none;
+    flex-direction: column;
+}
+li{
+    flex-grow: 1;
+}
+.iconos{
+    width: 5vw;
+    height: 5vw;
+    
+}
+a{
+    display: inline;
+    float: left;
+    padding: 1em;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 0.2em;
+    text-decoration: none;
+    color: blue;
+    align-content: center;
+}
+a:hover{
+    background-color: rgb(250, 135, 244);
+}
+
+
+p{
+    text-align: justify;
+    float: center;
+}
+#publi{
+    display: block;
+    max-width: 40vw;
+    max-height: 60vh;
+    margin-left: 40vw;
+    float: right;
+    
+}
+#publi img{
+    max-width: 20vw;
+    max-height: 30vw; 
+}
+
+
+:not p{
+    color: magenta;
+}
+
+@media screen and (min-width: 700px) {
+    #menu{
+        width: 300px;
+        position: fixed;
+    }
+    #contenido{
+        width: 800px;
+        margin-left: 350px;
+        
+    }
+   
+    img{
+        width: 800px;
+        height: auto;
+     
+    }
+    
+}

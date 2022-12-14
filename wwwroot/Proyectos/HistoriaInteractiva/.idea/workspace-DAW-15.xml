@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="58551a61-ec3b-4f23-b77a-56f6f6d18876" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HMrvMpzs7ce3GL4RBUmW4YnOb5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/1-DAW/OneDrive - Centre d'Estudis Monlau/2DAW/M6/UF2/Historia&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.saveactions&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\1-DAW\OneDrive - Centre d'Estudis Monlau\2DAW\M6\UF2\Historia" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\1-DAW\OneDrive - Centre d'Estudis Monlau\2DAW\M6\UF2\Historia\video" />
+      <recent name="E:\OneDrive - Centre d'Estudis Monlau\2DAW\M6\UF2\Historia\img" />
+      <recent name="E:\OneDrive - Centre d'Estudis Monlau\2DAW\M6\UF2\Historia\js" />
+      <recent name="E:\OneDrive - Centre d'Estudis Monlau\2DAW\M6\UF2\Historia\css" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="58551a61-ec3b-4f23-b77a-56f6f6d18876" name="Changes" comment="" />
+      <created>1668106022720</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668106022720</updated>
+      <workItem from="1668106023882" duration="1277000" />
+      <workItem from="1668526848584" duration="2809000" />
+      <workItem from="1668613283598" duration="2467000" />
+      <workItem from="1668703554920" duration="10095000" />
+      <workItem from="1669131665530" duration="3108000" />
+      <workItem from="1669218136963" duration="2814000" />
+      <workItem from="1669224401861" duration="610000" />
+      <workItem from="1669230648486" duration="147000" />
+      <workItem from="1669451420031" duration="3445000" />
+      <workItem from="1669561387786" duration="73000" />
+      <workItem from="1669648421814" duration="3864000" />
+      <workItem from="1669731286071" duration="1238000" />
+      <workItem from="1669736178441" duration="4742000" />
+      <workItem from="1669744975311" duration="993000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,0 +1,89 @@
+body{
+    font-family: 'Special Elite', cursive;
+    
+   background: rgb(2,0,36);
+    background: linear-gradient(326deg, rgba(2,0,36,1) 12%, rgba(106,1,7,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+.green{
+    background: rgb(2,0,36);
+    background: linear-gradient(152deg, rgba(2,0,36,1) 12%, rgba(106,1,7,1) 100%, rgba(0,212,255,1) 100%);
+}
+.dmenu{
+    background: gray;
+   
+}
+.pie{
+    color: white;
+    background: rgb(2,0,36);
+    background: linear-gradient(326deg, rgba(2,0,36,1) 12%, rgba(106,1,7,1) 100%, rgba(0,212,255,1) 100%);
+}
+.blue{
+    color: black;
+    background-color: gray;
+   
+    
+}
+.anuncio{
+    background-color: gray;
+   
+}
+.anuncio img{
+    margin-top: 6vh;
+    padding-left: 4vw;
+    height: 30vh;
+    width: 40vw;
+}
+
+.cabecera{
+    background-color:gray;
+    color: black;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    
+}
+
+.contenido{
+    background-color: gray;
+   
+}
+.logo{
+    max-width: 5rem;
+    height: 4rem;
+}
+
+/***Añade un efecto de censura, para seguir  con la tematica del juego
+pasado de scss a css creditos al codigo original:
+https://codemyui.com/pure-css-blurred-invisible-and-redacted-text-effect/
+**/
+.redacted span {
+    position: relative;
+    white-space: pre;
+  }
+  .redacted span:after {
+    background: black;
+    border-radius: 0.1em;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.35);
+    content: " ";
+    width: 100%;
+    height: 1.2em;
+    left: 0;
+    position: absolute;
+    transform: skewY(-5deg) rotate(5deg);
+  }
+  /**************************************************************************/
+video{
+    height: 100%;
+    width: 100%;
+}
+.green1{
+    background-color: green;
+}
+.linea1{
+    background-image: url('img/fondo1.jpg');
+    background-repeat: repeat;
+    
+}
+.linea2{
+    background-image: url('img/fondo2.jpg');
+    background-repeat: repeat;
+}

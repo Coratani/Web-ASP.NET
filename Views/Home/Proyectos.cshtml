@@ -1,16 +1,17 @@
 ﻿
-<div class="container">
+<div class="container-fluid">
     <div class="row row-cols-1 row-cols-md-3 g-4">
         @foreach (var project in ViewBag.Vproyecto)
         {
-            <div class="col">
+            <div class="offset-1 col-3">
                 <div class="card h-100">
                     <img src="@project.ImageURL" class="card-img-top" alt="imagen proyecto" />
-                    <div class="card-body">
+                    <div class="card-body" style="background-color:#979C9C">
                         <h5 class="card-title">@project.Title</h5>
                         <p class="card-text">@project.Description</p>
                     </div>
-                    <div class="card-footer">
+                    <div class="card-footer" style="background-color:#348899">
+                        <p>@project.Technology</p>
                         <a class="btn btn-primary" href="@project.Link" target="_blank"
                        rel="noopener noreferrer">Visitar</a>
                     </div>
