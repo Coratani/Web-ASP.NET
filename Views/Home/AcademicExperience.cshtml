@@ -1,3 +1,19 @@
 ﻿@{
     ViewData["Title"] = "Academic Training";
 }
+<div class="container-fluid d-flex  justify-content-center align-content-center">
+    <div class="row  g-4">
+        @foreach (var academic in ViewBag.Vacademic)
+        {
+                <div class="col-4 ">
+                    <div class="card h-100 ">
+                        <img src="@academic.ImageURL" class="card-img-top" alt="academic exp" />
+                        <div class="card-body" style="background-color:#348899">
+                            <h5 class="card-title">@academic.Title</h5>
+                            <p class="card-text">@academic.Description</p>
+                        </div>
+                    </div>
+                </div>
+        }
+    </div>
+</div>

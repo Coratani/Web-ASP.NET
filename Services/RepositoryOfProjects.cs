@@ -33,13 +33,6 @@ namespace P1_ASP.Services
                 Technology=new HtmlString("<i class='fa-brands fa-html5'></i> <i class='fa-brands fa-css3-alt'></i> <i class='fa-brands fa-square-js'></i> <i class='fa-brands fa-bootstrap'></i>"),
                 Link = "../Proyectos/HistoriaInteractiva/index.html",
                 ImageURL = "/img/logo.png"
-                },
-                      new ClassProjects {
-                Title = "Tienda Comics",
-                Description = "Tienda que  recibe la informacion de los comics mediante la conexion a una API",
-                Technology=new HtmlString("<i class='fa-brands fa-html5'></i> <i class='fa-brands fa-css3-alt'></i> <i class='fa-brands fa-square-js'></i> <i class='fa-brands fa-bootstrap'></i>"),
-                Link = "../Proyectos/TiendaMarvel/index.php",
-                ImageURL = "/img/logo.png"
                 }
 
             };

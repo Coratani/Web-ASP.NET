@@ -128,15 +128,6 @@
     <Content Include="wwwroot\Proyectos\HistoriaInteractiva\.idea\saveactions_settings.xml" />
     <Content Include="wwwroot\Proyectos\HistoriaInteractiva\.idea\workspace-DAW-15.xml" />
     <Content Include="wwwroot\Proyectos\HistoriaInteractiva\.idea\workspace.xml" />
-    <Content Include="wwwroot\Proyectos\TiendaMarvel\.idea\dataSources.local.xml" />
-    <Content Include="wwwroot\Proyectos\TiendaMarvel\.idea\dataSources.xml" />
-    <Content Include="wwwroot\Proyectos\TiendaMarvel\.idea\dataSources\0984842f-feae-47cf-b592-e3ca96c19a12.xml" />
-    <Content Include="wwwroot\Proyectos\TiendaMarvel\.idea\deployment.xml" />
-    <Content Include="wwwroot\Proyectos\TiendaMarvel\.idea\jsLibraryMappings.xml" />
-    <Content Include="wwwroot\Proyectos\TiendaMarvel\.idea\modules.xml" />
-    <Content Include="wwwroot\Proyectos\TiendaMarvel\.idea\php.xml" />
-    <Content Include="wwwroot\Proyectos\TiendaMarvel\.idea\saveactions_settings.xml" />
-    <Content Include="wwwroot\Proyectos\TiendaMarvel\.idea\workspace.xml" />
     <Content Include="wwwroot\Proyectos\RelojMundial\.idea\modules.xml" />
     <Content Include="wwwroot\Proyectos\RelojMundial\.idea\saveactions_settings.xml" />
     <Content Include="wwwroot\Proyectos\RelojMundial\.idea\workspace.xml" />
@@ -190,51 +181,6 @@
     <None Include="wwwroot\Proyectos\HistoriaInteractiva\video\loading_1.mp4" />
     <None Include="wwwroot\Proyectos\HistoriaInteractiva\video\loading_2.mp4" />
     <None Include="wwwroot\Proyectos\HistoriaInteractiva\video\loading_3.mp4" />
-    <None Include="wwwroot\Proyectos\TiendaMarvel\.idea\.gitignore" />
-    <None Include="wwwroot\Proyectos\TiendaMarvel\.idea\dataSources\0984842f-feae-47cf-b592-e3ca96c19a12\storage_v2\_src_\schema\information_schema.FNRwLQ.meta" />
-    <None Include="wwwroot\Proyectos\TiendaMarvel\.idea\dataSources\0984842f-feae-47cf-b592-e3ca96c19a12\storage_v2\_src_\schema\mysql.osA4Bg.meta" />
-    <None Include="wwwroot\Proyectos\TiendaMarvel\.idea\dataSources\0984842f-feae-47cf-b592-e3ca96c19a12\storage_v2\_src_\schema\performance_schema.kIw0nw.meta" />
-    <None Include="wwwroot\Proyectos\TiendaMarvel\.idea\Practica5.iml" />
-    <None Include="wwwroot\Proyectos\TiendaMarvel\checkout.php" />
-    <None Include="wwwroot\Proyectos\TiendaMarvel\connection\search.php" />
-    <None Include="wwwroot\Proyectos\TiendaMarvel\contact.php" />
-    <None Include="wwwroot\Proyectos\TiendaMarvel\css\bootstrap-grid.css.map" />
-    <None Include="wwwroot\Proyectos\TiendaMarvel\css\bootstrap-grid.min.css.map" />
-    <None Include="wwwroot\Proyectos\TiendaMarvel\css\bootstrap-grid.rtl.css.map" />
-    <None Include="wwwroot\Proyectos\TiendaMarvel\css\bootstrap-grid.rtl.min.css.map" />
-    <None Include="wwwroot\Proyectos\TiendaMarvel\css\bootstrap-reboot.css.map" />
-    <None Include="wwwroot\Proyectos\TiendaMarvel\css\bootstrap-reboot.min.css.map" />
-    <None Include="wwwroot\Proyectos\TiendaMarvel\css\bootstrap-reboot.rtl.css.map" />
-    <None Include="wwwroot\Proyectos\TiendaMarvel\css\bootstrap-reboot.rtl.min.css.map" />
-    <None Include="wwwroot\Proyectos\TiendaMarvel\css\bootstrap-utilities.css.map" />
-    <None Include="wwwroot\Proyectos\TiendaMarvel\css\bootstrap-utilities.min.css.map" />
-    <None Include="wwwroot\Proyectos\TiendaMarvel\css\bootstrap-utilities.rtl.css.map" />
-    <None Include="wwwroot\Proyectos\TiendaMarvel\css\bootstrap-utilities.rtl.min.css.map" />
-    <None Include="wwwroot\Proyectos\TiendaMarvel\css\bootstrap.css.map" />
-    <None Include="wwwroot\Proyectos\TiendaMarvel\css\bootstrap.min.css.map" />
-    <None Include="wwwroot\Proyectos\TiendaMarvel\css\bootstrap.rtl.css.map" />
-    <None Include="wwwroot\Proyectos\TiendaMarvel\css\bootstrap.rtl.min.css.map" />
-    <None Include="wwwroot\Proyectos\TiendaMarvel\forum.php" />
-    <None Include="wwwroot\Proyectos\TiendaMarvel\img\logo.svg" />
-    <None Include="wwwroot\Proyectos\TiendaMarvel\index.php" />
-    <None Include="wwwroot\Proyectos\TiendaMarvel\initdb.php" />
-    <None Include="wwwroot\Proyectos\TiendaMarvel\js\bootstrap.bundle.js" />
-    <None Include="wwwroot\Proyectos\TiendaMarvel\js\bootstrap.bundle.js.map" />
-    <None Include="wwwroot\Proyectos\TiendaMarvel\js\bootstrap.bundle.min.js" />
-    <None Include="wwwroot\Proyectos\TiendaMarvel\js\bootstrap.bundle.min.js.map" />
-    <None Include="wwwroot\Proyectos\TiendaMarvel\js\bootstrap.esm.js" />
-    <None Include="wwwroot\Proyectos\TiendaMarvel\js\bootstrap.esm.js.map" />
-    <None Include="wwwroot\Proyectos\TiendaMarvel\js\bootstrap.esm.min.js" />
-    <None Include="wwwroot\Proyectos\TiendaMarvel\js\bootstrap.esm.min.js.map" />
-    <None Include="wwwroot\Proyectos\TiendaMarvel\js\bootstrap.js" />
-    <None Include="wwwroot\Proyectos\TiendaMarvel\js\bootstrap.js.map" />
-    <None Include="wwwroot\Proyectos\TiendaMarvel\js\bootstrap.min.js" />
-    <None Include="wwwroot\Proyectos\TiendaMarvel\js\bootstrap.min.js.map" />
-    <None Include="wwwroot\Proyectos\TiendaMarvel\js\scripts.js" />
-    <None Include="wwwroot\Proyectos\TiendaMarvel\js\store.js" />
-    <None Include="wwwroot\Proyectos\TiendaMarvel\MySQLdb.php" />
-    <None Include="wwwroot\Proyectos\TiendaMarvel\post_message.php" />
-    <None Include="wwwroot\Proyectos\TiendaMarvel\store.php" />
     <None Include="wwwroot\Proyectos\RelojMundial\.idea\.gitignore" />
     <None Include="wwwroot\Proyectos\RelojMundial\.idea\.name" />
     <None Include="wwwroot\Proyectos\RelojMundial\.idea\Practica_Date.iml" />
@@ -307,11 +253,6 @@
     <None Include="wwwroot\Proyectos\VaultTec\styles.css" />
     <None Include="wwwroot\Proyectos\VaultTec\styles.css.bak" />
     <None Include="wwwroot\Proyectos\VaultTec\vid\anunciovid.mp4" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="wwwroot\Proyectos\TiendaMarvel\img\Libros\" />
-    <Folder Include="wwwroot\Proyectos\TiendaMarvel\img\Manga\" />
   </ItemGroup>
 
 </Project>

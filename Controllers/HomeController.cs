@@ -37,7 +37,7 @@ namespace P1_ASP.Controllers
             return View();
         }
         public IActionResult AcademicExperience() {
-            
+            ViewBag.Vacademic = new RepositoryOfAcademicExperience().GetAcademic();
             return View();
         }
         public IActionResult TechnicalKnowledge() {
@@ -46,7 +46,11 @@ namespace P1_ASP.Controllers
         public IActionResult CurriculumVitae() {
             return View();
         }
-       [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        public IActionResult Contact()
+        {
+            return View();
+        }
+        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });

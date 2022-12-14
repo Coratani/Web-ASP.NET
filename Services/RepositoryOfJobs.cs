@@ -9,32 +9,18 @@ namespace P1_ASP.Services
             return new List<ClassJobs>() {
                 new ClassJobs {
                 Title = "Starbucks",
-                Description = "Barista ",
-                ImageURL = "/img/1366_2000.jpg"
+                Description = "Barista",
+                ImageURL = "/img/Sbx.png"
                 },
                  new ClassJobs {
                 Title = "Tim Hortons",
-                Description = "Baker",
-                
-                ImageURL = "/img/q79j6x3o.bmp"
+                Description = "Baker",                
+                ImageURL = "/img/Th.png"
                 },
                   new ClassJobs {
-                Title = "Java Script",
-                Description = "Animación realizado en JS",
-               
-                ImageURL = "/img/present.bmp"
-                },
-                   new ClassJobs {
-                Title = "Java Script",
-                Description = "Animación realizado en JS",
-             
-                ImageURL = "/img/retro.bmp"
-                },
-                    new ClassJobs {
-                Title = "Java Script",
-                Description = "Animación realizado en JS",
-              
-                ImageURL = "/img/grid_bg.bmp"
+                Title = "TGI Fridays",
+                Description = "Waiter",
+                ImageURL = "/img/Tgi.png"
                 }
             };
         }
