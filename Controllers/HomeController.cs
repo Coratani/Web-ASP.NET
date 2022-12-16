@@ -41,6 +41,7 @@ namespace P1_ASP.Controllers
             return View();
         }
         public IActionResult TechnicalKnowledge() {
+            ViewBag.VKnowledge = new RepositoryOfKnowledge().GetKnowledge();
             return View();
         }
         public IActionResult CurriculumVitae() {

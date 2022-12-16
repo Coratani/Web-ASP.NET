@@ -132,13 +132,11 @@ iframe {
 .seccion-bienvenida {
     margin: 5rem 0 10rem 0;
     color: white;
-    .seccion-bienvenida hl
-
-
-
-{
-    margin-bottom: lrem;
+ 
 }
+
+
+
 
 
 
@@ -148,3 +146,7 @@ iframe {
     font-size: 1.25rem;
 }
 
+#techKnow {
+    height: 12rem;
+    width: 12rem;
+}

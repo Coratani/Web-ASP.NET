@@ -14,8 +14,8 @@ namespace P1_ASP.Services
                 ImageURL = "/img/"
                 },
                  new ClassAcademic {
-                Title = "Python application development technician ",
-                Description = "CEPI BASE",
+                Title = " ",
+                Description = "",
                 ImageURL = "/img/"
                 },
                   new ClassAcademic {

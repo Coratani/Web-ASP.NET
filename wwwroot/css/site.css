@@ -27,7 +27,7 @@ body {
 
 .cyber {
     margin-top: 80px;
-    font-family: neon;
+    /*font-family: neon;*/
     color: #FB42D4;
     /*font-size: 9vw;
     line-height: 9vw;*/
@@ -38,7 +38,7 @@ body {
 
 .zone {
     margin-top: 10px;
-    font-family: neon;
+    /*font-family: neon;*/
     color: #42FDEB;
     /*font-size: 9vw;
     line-height: 9vw;*/
@@ -83,4 +83,8 @@ body {
         text-shadow: 0 0 .5vw #088140, 0 0 1vw #088140, 0 0 4vw #088140, 0 0 4vw #088140, 0 0 .2vw #088140, .5vw .5vw .1vw #0A4930;
         color: #148C6B;
     }
+}
+.techKnow {
+    height:12rem;
+    width:12rem;
 }
