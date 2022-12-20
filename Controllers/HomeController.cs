@@ -15,6 +15,8 @@ namespace P1_ASP.Controllers
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
+            this.contextDB = contextDB;
+
         }
 
         public IActionResult Index()
