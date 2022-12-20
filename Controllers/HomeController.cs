@@ -3,12 +3,14 @@ using P1_ASP.Models;
 using P1_ASP.Services;
 using System.Diagnostics;
 using P1_ASP.Controllers;
+using P1_ASP.Context;
 
 namespace P1_ASP.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly ContextDB contextDB;
 
         public HomeController(ILogger<HomeController> logger)
         {
@@ -33,7 +35,9 @@ namespace P1_ASP.Controllers
         }
         public IActionResult Proyectos()
         {
+
             ViewBag.Vproyecto = new RepositoryOfProjects().GetProjects();
+            //ViewBag.Vproyecto = contextDB.ClassProjects.ToList();
             return View();
         }
         public IActionResult AcademicExperience() {
