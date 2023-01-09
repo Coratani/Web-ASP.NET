@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -6,5 +6,262 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>P1_ASP</RootNamespace>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\Proyectos\Concurso\assets\favicon.ico" />
+    <Content Remove="wwwroot\Proyectos\Concurso\css\styles.css" />
+    <Content Remove="wwwroot\Proyectos\Concurso\img\gameShow.webp" />
+    <Content Remove="wwwroot\Proyectos\Concurso\index.html" />
+    <Content Remove="wwwroot\Proyectos\Concurso\js\scripts.js" />
+    <Content Remove="wwwroot\Proyectos\FCB\css\styles.css" />
+    <Content Remove="wwwroot\Proyectos\FCB\FBC.html" />
+    <Content Remove="wwwroot\Proyectos\FCB\img\Astral_Plane_Flip.webp" />
+    <Content Remove="wwwroot\Proyectos\FCB\img\fondo1.jpg" />
+    <Content Remove="wwwroot\Proyectos\FCB\img\fondo2.jpg" />
+    <Content Remove="wwwroot\Proyectos\FCB\img\IImNP1f.jpeg" />
+    <Content Remove="wwwroot\Proyectos\FCB\img\logo.png" />
+    <Content Remove="wwwroot\Proyectos\FCB\img\Oldest_House_flip.webp" />
+    <Content Remove="wwwroot\Proyectos\FCB\img\OOP\ashtray.png" />
+    <Content Remove="wwwroot\Proyectos\FCB\img\OOP\BTV.png" />
+    <Content Remove="wwwroot\Proyectos\FCB\img\OOP\Floppy.png" />
+    <Content Remove="wwwroot\Proyectos\FCB\img\OOP\hotline.png" />
+    <Content Remove="wwwroot\Proyectos\FCB\img\OOP\merry.png" />
+    <Content Remove="wwwroot\Proyectos\FCB\img\OOP\Rubberduck.png" />
+    <Content Remove="wwwroot\Proyectos\FCB\img\OOP\Safe.png" />
+    <Content Remove="wwwroot\Proyectos\FCB\img\OOP\xray.png" />
+    <Content Remove="wwwroot\Proyectos\FCB\img\Screenshot_1.png" />
+    <Content Remove="wwwroot\Proyectos\FCB\img\Screenshot_2.png" />
+    <Content Remove="wwwroot\Proyectos\FCB\img\Screenshot_3.png" />
+    <Content Remove="wwwroot\Proyectos\FCB\script.js" />
+    <Content Remove="wwwroot\Proyectos\FCB\videos\Board.mp4" />
+    <Content Remove="wwwroot\Proyectos\HistoriaInteractiva\badEnding.html" />
+    <Content Remove="wwwroot\Proyectos\HistoriaInteractiva\css\styles.css" />
+    <Content Remove="wwwroot\Proyectos\HistoriaInteractiva\img\badending.jpg" />
+    <Content Remove="wwwroot\Proyectos\HistoriaInteractiva\img\chl.svg" />
+    <Content Remove="wwwroot\Proyectos\HistoriaInteractiva\img\logo.png" />
+    <Content Remove="wwwroot\Proyectos\HistoriaInteractiva\img\sapienzaDebrief.gif" />
+    <Content Remove="wwwroot\Proyectos\HistoriaInteractiva\index.html" />
+    <Content Remove="wwwroot\Proyectos\HistoriaInteractiva\js\scripts.js" />
+    <Content Remove="wwwroot\Proyectos\HistoriaInteractiva\result.html" />
+    <Content Remove="wwwroot\Proyectos\HistoriaInteractiva\video\loading_1.mp4" />
+    <Content Remove="wwwroot\Proyectos\HistoriaInteractiva\video\loading_2.mp4" />
+    <Content Remove="wwwroot\Proyectos\HistoriaInteractiva\video\loading_3.mp4" />
+    <Content Remove="wwwroot\Proyectos\RelojMundial\css\bootstrap-grid.css" />
+    <Content Remove="wwwroot\Proyectos\RelojMundial\css\bootstrap-grid.css.map" />
+    <Content Remove="wwwroot\Proyectos\RelojMundial\css\bootstrap-grid.min.css" />
+    <Content Remove="wwwroot\Proyectos\RelojMundial\css\bootstrap-grid.min.css.map" />
+    <Content Remove="wwwroot\Proyectos\RelojMundial\css\bootstrap-grid.rtl.css" />
+    <Content Remove="wwwroot\Proyectos\RelojMundial\css\bootstrap-grid.rtl.css.map" />
+    <Content Remove="wwwroot\Proyectos\RelojMundial\css\bootstrap-grid.rtl.min.css" />
+    <Content Remove="wwwroot\Proyectos\RelojMundial\css\bootstrap-grid.rtl.min.css.map" />
+    <Content Remove="wwwroot\Proyectos\RelojMundial\css\bootstrap-reboot.css" />
+    <Content Remove="wwwroot\Proyectos\RelojMundial\css\bootstrap-reboot.css.map" />
+    <Content Remove="wwwroot\Proyectos\RelojMundial\css\bootstrap-reboot.min.css" />
+    <Content Remove="wwwroot\Proyectos\RelojMundial\css\bootstrap-reboot.min.css.map" />
+    <Content Remove="wwwroot\Proyectos\RelojMundial\css\bootstrap-reboot.rtl.css" />
+    <Content Remove="wwwroot\Proyectos\RelojMundial\css\bootstrap-reboot.rtl.css.map" />
+    <Content Remove="wwwroot\Proyectos\RelojMundial\css\bootstrap-reboot.rtl.min.css" />
+    <Content Remove="wwwroot\Proyectos\RelojMundial\css\bootstrap-reboot.rtl.min.css.map" />
+    <Content Remove="wwwroot\Proyectos\RelojMundial\css\bootstrap-utilities.css" />
+    <Content Remove="wwwroot\Proyectos\RelojMundial\css\bootstrap-utilities.css.map" />
+    <Content Remove="wwwroot\Proyectos\RelojMundial\css\bootstrap-utilities.min.css" />
+    <Content Remove="wwwroot\Proyectos\RelojMundial\css\bootstrap-utilities.min.css.map" />
+    <Content Remove="wwwroot\Proyectos\RelojMundial\css\bootstrap-utilities.rtl.css" />
+    <Content Remove="wwwroot\Proyectos\RelojMundial\css\bootstrap-utilities.rtl.css.map" />
+    <Content Remove="wwwroot\Proyectos\RelojMundial\css\bootstrap-utilities.rtl.min.css" />
+    <Content Remove="wwwroot\Proyectos\RelojMundial\css\bootstrap-utilities.rtl.min.css.map" />
+    <Content Remove="wwwroot\Proyectos\RelojMundial\css\bootstrap.css" />
+    <Content Remove="wwwroot\Proyectos\RelojMundial\css\bootstrap.css.map" />
+    <Content Remove="wwwroot\Proyectos\RelojMundial\css\bootstrap.min.css" />
+    <Content Remove="wwwroot\Proyectos\RelojMundial\css\bootstrap.min.css.map" />
+    <Content Remove="wwwroot\Proyectos\RelojMundial\css\bootstrap.rtl.css" />
+    <Content Remove="wwwroot\Proyectos\RelojMundial\css\bootstrap.rtl.css.map" />
+    <Content Remove="wwwroot\Proyectos\RelojMundial\css\bootstrap.rtl.min.css" />
+    <Content Remove="wwwroot\Proyectos\RelojMundial\css\bootstrap.rtl.min.css.map" />
+    <Content Remove="wwwroot\Proyectos\RelojMundial\css\styles.css" />
+    <Content Remove="wwwroot\Proyectos\RelojMundial\img\5053.png" />
+    <Content Remove="wwwroot\Proyectos\RelojMundial\img\earth-icon.svg" />
+    <Content Remove="wwwroot\Proyectos\RelojMundial\img\fondo3.jpg" />
+    <Content Remove="wwwroot\Proyectos\RelojMundial\img\mapaNumeros.bmp" />
+    <Content Remove="wwwroot\Proyectos\RelojMundial\img\mapaSinNumero.bmp" />
+    <Content Remove="wwwroot\Proyectos\RelojMundial\img\mapaSinNumeroEditado.png" />
+    <Content Remove="wwwroot\Proyectos\RelojMundial\index.html" />
+    <Content Remove="wwwroot\Proyectos\RelojMundial\js\bootstrap.bundle.js" />
+    <Content Remove="wwwroot\Proyectos\RelojMundial\js\bootstrap.bundle.js.map" />
+    <Content Remove="wwwroot\Proyectos\RelojMundial\js\bootstrap.bundle.min.js" />
+    <Content Remove="wwwroot\Proyectos\RelojMundial\js\bootstrap.bundle.min.js.map" />
+    <Content Remove="wwwroot\Proyectos\RelojMundial\js\bootstrap.esm.js" />
+    <Content Remove="wwwroot\Proyectos\RelojMundial\js\bootstrap.esm.js.map" />
+    <Content Remove="wwwroot\Proyectos\RelojMundial\js\bootstrap.esm.min.js" />
+    <Content Remove="wwwroot\Proyectos\RelojMundial\js\bootstrap.esm.min.js.map" />
+    <Content Remove="wwwroot\Proyectos\RelojMundial\js\bootstrap.js" />
+    <Content Remove="wwwroot\Proyectos\RelojMundial\js\bootstrap.js.map" />
+    <Content Remove="wwwroot\Proyectos\RelojMundial\js\bootstrap.min.js" />
+    <Content Remove="wwwroot\Proyectos\RelojMundial\js\bootstrap.min.js.map" />
+    <Content Remove="wwwroot\Proyectos\RelojMundial\js\scripts.js" />
+    <Content Remove="wwwroot\Proyectos\VaultTec\fonts\monofonto.otf" />
+    <Content Remove="wwwroot\Proyectos\VaultTec\img\anuncio.jpg" />
+    <Content Remove="wwwroot\Proyectos\VaultTec\img\anuncio2.jpg" />
+    <Content Remove="wwwroot\Proyectos\VaultTec\img\Hamburger_icon.svg" />
+    <Content Remove="wwwroot\Proyectos\VaultTec\img\logo.png" />
+    <Content Remove="wwwroot\Proyectos\VaultTec\img\medio1.png" />
+    <Content Remove="wwwroot\Proyectos\VaultTec\img\texture-noise@1x.png" />
+    <Content Remove="wwwroot\Proyectos\VaultTec\img\Votf.webp" />
+    <Content Remove="wwwroot\Proyectos\VaultTec\index.html" />
+    <Content Remove="wwwroot\Proyectos\VaultTec\menus.test" />
+    <Content Remove="wwwroot\Proyectos\VaultTec\nav.js" />
+    <Content Remove="wwwroot\Proyectos\VaultTec\styles.css" />
+    <Content Remove="wwwroot\Proyectos\VaultTec\styles.css.bak" />
+    <Content Remove="wwwroot\Proyectos\VaultTec\vid\anunciovid.mp4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\Proyectos\Concurso\.idea\inspectionProfiles\Project_Default.xml" />
+    <Content Include="wwwroot\Proyectos\Concurso\.idea\modules.xml" />
+    <Content Include="wwwroot\Proyectos\Concurso\.idea\workspace.xml" />
+    <Content Include="wwwroot\Proyectos\FCB\.idea\modules.xml" />
+    <Content Include="wwwroot\Proyectos\FCB\.idea\workspace.xml" />
+    <Content Include="wwwroot\Proyectos\FCB\.vscode\settings.json" />
+    <Content Include="wwwroot\Proyectos\HistoriaInteractiva\.idea\dictionaries\zimiz.xml" />
+    <Content Include="wwwroot\Proyectos\HistoriaInteractiva\.idea\jsLibraryMappings.xml" />
+    <Content Include="wwwroot\Proyectos\HistoriaInteractiva\.idea\modules.xml" />
+    <Content Include="wwwroot\Proyectos\HistoriaInteractiva\.idea\saveactions_settings.xml" />
+    <Content Include="wwwroot\Proyectos\HistoriaInteractiva\.idea\workspace-DAW-15.xml" />
+    <Content Include="wwwroot\Proyectos\HistoriaInteractiva\.idea\workspace.xml" />
+    <Content Include="wwwroot\Proyectos\RelojMundial\.idea\modules.xml" />
+    <Content Include="wwwroot\Proyectos\RelojMundial\.idea\saveactions_settings.xml" />
+    <Content Include="wwwroot\Proyectos\RelojMundial\.idea\workspace.xml" />
+    <Content Include="wwwroot\Proyectos\VaultTec\.idea\modules.xml" />
+    <Content Include="wwwroot\Proyectos\VaultTec\.idea\workspace.xml" />
+    <Content Include="wwwroot\Proyectos\VaultTec\.vscode\settings.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Proyectos\Concurso\.idea\.gitignore" />
+    <None Include="wwwroot\Proyectos\Concurso\.idea\Practica2.iml" />
+    <None Include="wwwroot\Proyectos\Concurso\assets\favicon.ico" />
+    <None Include="wwwroot\Proyectos\Concurso\css\styles.css" />
+    <None Include="wwwroot\Proyectos\Concurso\img\gameShow.webp" />
+    <None Include="wwwroot\Proyectos\Concurso\index.html" />
+    <None Include="wwwroot\Proyectos\Concurso\js\scripts.js" />
+    <None Include="wwwroot\Proyectos\FCB\.idea\.gitignore" />
+    <None Include="wwwroot\Proyectos\FCB\.idea\Practica 5.iml" />
+    <None Include="wwwroot\Proyectos\FCB\css\styles.css" />
+    <None Include="wwwroot\Proyectos\FCB\FBC.html" />
+    <None Include="wwwroot\Proyectos\FCB\img\Astral_Plane_Flip.webp" />
+    <None Include="wwwroot\Proyectos\FCB\img\fondo1.jpg" />
+    <None Include="wwwroot\Proyectos\FCB\img\fondo2.jpg" />
+    <None Include="wwwroot\Proyectos\FCB\img\IImNP1f.jpeg" />
+    <None Include="wwwroot\Proyectos\FCB\img\logo.png" />
+    <None Include="wwwroot\Proyectos\FCB\img\Oldest_House_flip.webp" />
+    <None Include="wwwroot\Proyectos\FCB\img\OOP\ashtray.png" />
+    <None Include="wwwroot\Proyectos\FCB\img\OOP\BTV.png" />
+    <None Include="wwwroot\Proyectos\FCB\img\OOP\Floppy.png" />
+    <None Include="wwwroot\Proyectos\FCB\img\OOP\hotline.png" />
+    <None Include="wwwroot\Proyectos\FCB\img\OOP\merry.png" />
+    <None Include="wwwroot\Proyectos\FCB\img\OOP\Rubberduck.png" />
+    <None Include="wwwroot\Proyectos\FCB\img\OOP\Safe.png" />
+    <None Include="wwwroot\Proyectos\FCB\img\OOP\xray.png" />
+    <None Include="wwwroot\Proyectos\FCB\img\Screenshot_1.png" />
+    <None Include="wwwroot\Proyectos\FCB\img\Screenshot_2.png" />
+    <None Include="wwwroot\Proyectos\FCB\img\Screenshot_3.png" />
+    <None Include="wwwroot\Proyectos\FCB\script.js" />
+    <None Include="wwwroot\Proyectos\FCB\videos\Board.mp4" />
+    <None Include="wwwroot\Proyectos\HistoriaInteractiva\.idea\.gitignore" />
+    <None Include="wwwroot\Proyectos\HistoriaInteractiva\.idea\Historia.iml" />
+    <None Include="wwwroot\Proyectos\HistoriaInteractiva\badEnding.html" />
+    <None Include="wwwroot\Proyectos\HistoriaInteractiva\css\styles.css" />
+    <None Include="wwwroot\Proyectos\HistoriaInteractiva\img\badending.jpg" />
+    <None Include="wwwroot\Proyectos\HistoriaInteractiva\img\chl.svg" />
+    <None Include="wwwroot\Proyectos\HistoriaInteractiva\img\logo.png" />
+    <None Include="wwwroot\Proyectos\HistoriaInteractiva\img\sapienzaDebrief.gif" />
+    <None Include="wwwroot\Proyectos\HistoriaInteractiva\index.html" />
+    <None Include="wwwroot\Proyectos\HistoriaInteractiva\js\scripts.js" />
+    <None Include="wwwroot\Proyectos\HistoriaInteractiva\result.html" />
+    <None Include="wwwroot\Proyectos\HistoriaInteractiva\video\loading_1.mp4" />
+    <None Include="wwwroot\Proyectos\HistoriaInteractiva\video\loading_2.mp4" />
+    <None Include="wwwroot\Proyectos\HistoriaInteractiva\video\loading_3.mp4" />
+    <None Include="wwwroot\Proyectos\RelojMundial\.idea\.gitignore" />
+    <None Include="wwwroot\Proyectos\RelojMundial\.idea\.name" />
+    <None Include="wwwroot\Proyectos\RelojMundial\.idea\Practica_Date.iml" />
+    <None Include="wwwroot\Proyectos\RelojMundial\css\bootstrap-grid.css" />
+    <None Include="wwwroot\Proyectos\RelojMundial\css\bootstrap-grid.css.map" />
+    <None Include="wwwroot\Proyectos\RelojMundial\css\bootstrap-grid.min.css" />
+    <None Include="wwwroot\Proyectos\RelojMundial\css\bootstrap-grid.min.css.map" />
+    <None Include="wwwroot\Proyectos\RelojMundial\css\bootstrap-grid.rtl.css" />
+    <None Include="wwwroot\Proyectos\RelojMundial\css\bootstrap-grid.rtl.css.map" />
+    <None Include="wwwroot\Proyectos\RelojMundial\css\bootstrap-grid.rtl.min.css" />
+    <None Include="wwwroot\Proyectos\RelojMundial\css\bootstrap-grid.rtl.min.css.map" />
+    <None Include="wwwroot\Proyectos\RelojMundial\css\bootstrap-reboot.css" />
+    <None Include="wwwroot\Proyectos\RelojMundial\css\bootstrap-reboot.css.map" />
+    <None Include="wwwroot\Proyectos\RelojMundial\css\bootstrap-reboot.min.css" />
+    <None Include="wwwroot\Proyectos\RelojMundial\css\bootstrap-reboot.min.css.map" />
+    <None Include="wwwroot\Proyectos\RelojMundial\css\bootstrap-reboot.rtl.css" />
+    <None Include="wwwroot\Proyectos\RelojMundial\css\bootstrap-reboot.rtl.css.map" />
+    <None Include="wwwroot\Proyectos\RelojMundial\css\bootstrap-reboot.rtl.min.css" />
+    <None Include="wwwroot\Proyectos\RelojMundial\css\bootstrap-reboot.rtl.min.css.map" />
+    <None Include="wwwroot\Proyectos\RelojMundial\css\bootstrap-utilities.css" />
+    <None Include="wwwroot\Proyectos\RelojMundial\css\bootstrap-utilities.css.map" />
+    <None Include="wwwroot\Proyectos\RelojMundial\css\bootstrap-utilities.min.css" />
+    <None Include="wwwroot\Proyectos\RelojMundial\css\bootstrap-utilities.min.css.map" />
+    <None Include="wwwroot\Proyectos\RelojMundial\css\bootstrap-utilities.rtl.css" />
+    <None Include="wwwroot\Proyectos\RelojMundial\css\bootstrap-utilities.rtl.css.map" />
+    <None Include="wwwroot\Proyectos\RelojMundial\css\bootstrap-utilities.rtl.min.css" />
+    <None Include="wwwroot\Proyectos\RelojMundial\css\bootstrap-utilities.rtl.min.css.map" />
+    <None Include="wwwroot\Proyectos\RelojMundial\css\bootstrap.css" />
+    <None Include="wwwroot\Proyectos\RelojMundial\css\bootstrap.css.map" />
+    <None Include="wwwroot\Proyectos\RelojMundial\css\bootstrap.min.css" />
+    <None Include="wwwroot\Proyectos\RelojMundial\css\bootstrap.min.css.map" />
+    <None Include="wwwroot\Proyectos\RelojMundial\css\bootstrap.rtl.css" />
+    <None Include="wwwroot\Proyectos\RelojMundial\css\bootstrap.rtl.css.map" />
+    <None Include="wwwroot\Proyectos\RelojMundial\css\bootstrap.rtl.min.css" />
+    <None Include="wwwroot\Proyectos\RelojMundial\css\bootstrap.rtl.min.css.map" />
+    <None Include="wwwroot\Proyectos\RelojMundial\css\styles.css" />
+    <None Include="wwwroot\Proyectos\RelojMundial\img\5053.png" />
+    <None Include="wwwroot\Proyectos\RelojMundial\img\earth-icon.svg" />
+    <None Include="wwwroot\Proyectos\RelojMundial\img\fondo3.jpg" />
+    <None Include="wwwroot\Proyectos\RelojMundial\img\mapaNumeros.bmp" />
+    <None Include="wwwroot\Proyectos\RelojMundial\img\mapaSinNumero.bmp" />
+    <None Include="wwwroot\Proyectos\RelojMundial\img\mapaSinNumeroEditado.png" />
+    <None Include="wwwroot\Proyectos\RelojMundial\index.html" />
+    <None Include="wwwroot\Proyectos\RelojMundial\js\bootstrap.bundle.js" />
+    <None Include="wwwroot\Proyectos\RelojMundial\js\bootstrap.bundle.js.map" />
+    <None Include="wwwroot\Proyectos\RelojMundial\js\bootstrap.bundle.min.js" />
+    <None Include="wwwroot\Proyectos\RelojMundial\js\bootstrap.bundle.min.js.map" />
+    <None Include="wwwroot\Proyectos\RelojMundial\js\bootstrap.esm.js" />
+    <None Include="wwwroot\Proyectos\RelojMundial\js\bootstrap.esm.js.map" />
+    <None Include="wwwroot\Proyectos\RelojMundial\js\bootstrap.esm.min.js" />
+    <None Include="wwwroot\Proyectos\RelojMundial\js\bootstrap.esm.min.js.map" />
+    <None Include="wwwroot\Proyectos\RelojMundial\js\bootstrap.js" />
+    <None Include="wwwroot\Proyectos\RelojMundial\js\bootstrap.js.map" />
+    <None Include="wwwroot\Proyectos\RelojMundial\js\bootstrap.min.js" />
+    <None Include="wwwroot\Proyectos\RelojMundial\js\bootstrap.min.js.map" />
+    <None Include="wwwroot\Proyectos\RelojMundial\js\scripts.js" />
+    <None Include="wwwroot\Proyectos\VaultTec\.idea\.gitignore" />
+    <None Include="wwwroot\Proyectos\VaultTec\.idea\Practica 3.iml" />
+    <None Include="wwwroot\Proyectos\VaultTec\fonts\monofonto.otf" />
+    <None Include="wwwroot\Proyectos\VaultTec\img\anuncio.jpg" />
+    <None Include="wwwroot\Proyectos\VaultTec\img\anuncio2.jpg" />
+    <None Include="wwwroot\Proyectos\VaultTec\img\Hamburger_icon.svg" />
+    <None Include="wwwroot\Proyectos\VaultTec\img\logo.png" />
+    <None Include="wwwroot\Proyectos\VaultTec\img\medio1.png" />
+    <None Include="wwwroot\Proyectos\VaultTec\img\texture-noise@1x.png" />
+    <None Include="wwwroot\Proyectos\VaultTec\img\Votf.webp" />
+    <None Include="wwwroot\Proyectos\VaultTec\index.html" />
+    <None Include="wwwroot\Proyectos\VaultTec\menus.test" />
+    <None Include="wwwroot\Proyectos\VaultTec\nav.js" />
+    <None Include="wwwroot\Proyectos\VaultTec\styles.css" />
+    <None Include="wwwroot\Proyectos\VaultTec\styles.css.bak" />
+    <None Include="wwwroot\Proyectos\VaultTec\vid\anunciovid.mp4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
 
 </Project>

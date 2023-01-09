@@ -8,43 +8,69 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/P1_ASP.styles.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/MyStyleSheet.css" asp-append-version="true" />
+    <script src="https://kit.fontawesome.com/7652d2555d.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+    <header class="mb-2">
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg navbar-light bg-light text-center">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">P1_ASP</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link active neonTextAnimated" asp-area="" asp-controller="Home" asp-action="Proyectos">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            <a class="nav-link active neonBlue" asp-area="" asp-controller="Home" asp-action="Index">About me..</a>
+                        </li>                 
+                        <li class="nav-item">
+                            <a class="nav-link active neonBlue" asp-area="" asp-controller="Home" asp-action="Experience">Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active neonBlue" asp-area="" asp-controller="Home" asp-action="AcademicExperience">Academic Training</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active neonTextAnimated" asp-area="" asp-controller="Home" asp-action="TechnicalKnowledge">Technical Knowledge</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active neonBlue" asp-area="" asp-controller="Home" asp-action="CurriculumVitae">Curriculum Vitae</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active neonBlue" asp-area="" asp-controller="Home" asp-action="Contact">Contact</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <div class="container">
+    <div class="container-fluid">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2022 - P1_ASP - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    <footer class="border-top footer bg-dark text-center">
+        <div class="d-flex container p-4 pb-0 justify-content-center">
+            <!-- Section: Social media -->
+            <section class="mb-2 text-center">
+                <!-- Linkedin -->
+                <a class="btn btn-outline-light btn-floating m-1 pb-0" href="https://es.linkedin.com/" role="button">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <!-- Github -->
+                <a class="btn btn-outline-light btn-floating m-1 pb-0" href="https://github.com/" role="button">
+                    <i class="fab fa-github"></i>
+                </a>
+            </section>
+        </div>
+        <!-- Copyright -->
+        <div class="text-center p-3 copy text-light">
+            © 2022 Copyright
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://kit.fontawesome.com/7652d2555d.js" crossorigin="anonymous"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

@@ -1,16 +1,22 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using P1_ASP.Models;
+using P1_ASP.Services;
 using System.Diagnostics;
+using P1_ASP.Controllers;
+using P1_ASP.Context;
 
 namespace P1_ASP.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly ContextDB contextDB;
 
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
+            this.contextDB = contextDB;
+
         }
 
         public IActionResult Index()
@@ -25,7 +31,32 @@ namespace P1_ASP.Controllers
             
             return View();
         }
+        public IActionResult Experience() {
+            ViewBag.Vjobs = new RepositoryOfJobs().GetJobs();
+            return View();
+        }
+        public IActionResult Proyectos()
+        {
 
+            ViewBag.Vproyecto = new RepositoryOfProjects().GetProjects();
+            //ViewBag.Vproyecto = contextDB.ClassProjects.ToList();
+            return View();
+        }
+        public IActionResult AcademicExperience() {
+            ViewBag.Vacademic = new RepositoryOfAcademicExperience().GetAcademic();
+            return View();
+        }
+        public IActionResult TechnicalKnowledge() {
+            ViewBag.VKnowledge = new RepositoryOfKnowledge().GetKnowledge();
+            return View();
+        }
+        public IActionResult CurriculumVitae() {
+            return View();
+        }
+        public IActionResult Contact()
+        {
+            return View();
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

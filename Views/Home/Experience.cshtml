@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Experience";
+}
+<div class="container-fluid d-flex  justify-content-center align-content-center">
+    <div class="row  g-4">
+        @foreach (var job in ViewBag.Vjobs)
+        {
+            <div class="col-4 ">
+                <div class="card h-100 ">
+                    <img src="@job.ImageURL" class="card-img-top" alt="imagen proyecto" />
+                    <div class="card-body" style="background-color:#348899">
+                        <h5 class="card-title">@job.Title</h5>
+                        <p class="card-text">@job.Description</p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

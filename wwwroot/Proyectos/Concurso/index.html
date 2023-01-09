@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="2 DAW" content="" />
+        <meta name="Antonio Zamacona" content="" />
+        <title>Practica 2</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="bg-info">
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container px-5">
+                <a class="navbar-brand" href="#">Concurso</a>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container px-4 px-lg-5">
+            <!-- Heading Row-->
+            <div class="row gx-4 gx-lg-5 align-items-center my-5">
+                <div class="col-lg-5">
+                    <h1 class="font-weight-light">Welcome</h1>
+                    <p>Answer correctly the next questions to get to the next round.</p>
+                </div>
+                <div class="col-lg-7"><img class="img-fluid rounded mb-4 mb-lg-0" src="img/gameShow.webp" alt="..." /></div>
+            </div>
+            <!-- Content Row-->
+            <div class="row gx-4 gx-lg-5" id="q1">
+                <div class="col-md-6 mb-1">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h2 class="card-title">Who is the creator of Facebook?</h2>
+                            <p class="card-text"></p>
+                            <form autocomplete="off">
+                                <ul class="list-unstyled" id="a1">
+                                    <li><input type="radio" name="question1" id="ans1q1" value="James Corden"><label
+                                            class="radio p-2" for="ans1q1">James Corden</label></li>
+                                    <li><input type="radio" name="question1" id="ans2q1" value="Bruce Lee"><label
+                                            class="radio p-2" for="ans2q1">Bruce Lee</label></li>
+                                    <li><input type="radio" name="question1" id="ans3q1" value="Mark Zuckerberg"><label
+                                            class="radio p-2" for="ans3q1">Mark Zuckerberg</label></li>
+                                    <li><input type="radio" name="question1" id="ans4q1" value="Louis Vuitton"><label
+                                            class="radio p-2" for="ans4q1">Louis Vuitton</label></li>
+                                </ul>
+                            </form>
+                        </div>
+                        <div class="card-footer bg-success" id="corrAns1" hidden><p class="text-white">Correct!</p></div>
+                        <div class="card-footer bg-danger" id="wrongAns1" hidden><p class="text-white">Wrong!</p></div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-1" id="q2" >
+                    <div class="card h-100">
+                        <div class="card-body bg-">
+                            <h2 class="card-title" >Who was the third founder of Apple? Besides Wozniak and Jobs</h2>
+                            <form autocomplete="off">
+                                <ul class="list-unstyled" id="a2">
+                                    <li><input type="radio" name="question2" id="ans1q2" value="Ronald Wayne"><label
+                                            class="radio p-2" for="ans1q2">Ronald Wayne</label></li>
+                                    <li><input type="radio" name="question2" id="ans2q2" value="Linus Lead"><label
+                                            class="radio p-2" for="ans2q2">Linus Lead</label></li>
+                                    <li><input type="radio" name="question2" id="ans3q2" value="Chris Knight"><label
+                                            class="radio p-2" for="ans3q2">Chris Knight</label></li>
+                                    <li><input type="radio" name="question2" id="ans4q2" value="Paul Allen"><label
+                                            class="radio p-2" for="ans4q2">Paul Allen</label></li>
+                                </ul>
+                            </form>
+                        </div>
+                        <div class="card-footer bg-success" id="corrAns2" hidden><p class="text-white">Correct!</p></div>
+                        <div class="card-footer bg-danger" id="wrongAns2" hidden><p class="text-white">Wrong!</p></div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer bg-success mb-2 pt-2" id="nextRound" hidden><p class="text-white">Correct! Continue to the next round</p></div>
+            <div class="card-footer bg-danger" id="failRound" hidden><p class="text-white">Wrong! Keep trying</p></div>
+            <!-- Hidden questions -->
+            <div class="row gx-4 gx-lg-5"  id="q3" hidden>
+                <div class="col-md-6 mb-1"  >
+                    <div class="card h-100" >
+                        <div class="card-body ">
+                            <h2 class="card-title">Which year did the first iphone come out?</h2>
+                            <form autocomplete="off">
+                                <ul class="list-unstyled" id="a3">
+                                    <li><input type="radio" name="question3" id="ans1q3" value="2005">&nbsp;&nbsp;<label
+                                            for="ans1q3">2005</label></li>
+                                    <li><input type="radio" name="question3" id="ans2q3" value="2007">&nbsp;&nbsp;<label
+                                            for="ans2q3">2007</label></li>
+                                    <li><input type="radio" name="question3" id="ans3q3" value="2009">&nbsp;&nbsp;<label
+                                            for="ans3q3">2009</label></li>
+                                    <li><input type="radio" name="question3" id="ans4q3" value="2008">&nbsp;&nbsp;<label
+                                            for="ans4q3">2008</label></li>
+                                </ul>
+                            </form>
+                        </div>
+                        <div class="card-footer bg-success" id="corrAns3" hidden><p class="text-white">Correct!</p></div>
+                        <div class="card-footer bg-danger" id="wrongAns3" hidden><p class="text-white">Wrong!</p></div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-1 "  id="q4" >
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h2 class="card-title">The first SMS was sent this year</h2>
+                            <form autocomplete="off">
+                                <ul class="list-unstyled" id="a4">
+                                    <li><input type="radio" name="question4" id="ans1q4" value="1990">&nbsp;&nbsp;<label
+                                            for="ans1q4">1990</label></li>
+                                    <li><input type="radio" name="question4" id="ans2q4" value="1992">&nbsp;&nbsp;<label
+                                            for="ans2q4">1992</label></li>
+                                    <li><input type="radio" name="question4" id="ans3q4" value="1996">&nbsp;&nbsp;<label
+                                            for="ans3q4">1996</label></li>
+                                    <li><input type="radio" name="question4" id="ans4q4" value="1997">&nbsp;&nbsp;<label
+                                            for="ans4q4">1997</label></li>
+                                </ul>
+                            </form>
+                        </div>
+                        <div class="card-footer bg-success" id="corrAns4" hidden><p class="text-white">Correct!</p></div>
+                        <div class="card-footer bg-danger" id="wrongAns4" hidden><p class="text-white">Wrong!</p></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row  justify-content-center" >
+                <div class="col-6 jumbotron bg-warning rounded-3" id="end" hidden>
+                    <h1 id="message" class="display-4">Congratulations, you won!</h1>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-6 bg-danger" id="errDiv" hidden>
+                    <h1 id="error"></h1>
+                </div>
+            </div>
+            <div class="row m-3">
+                <button class="bg-warning rounded-3 " name="checkResult" id="checkResult" onclick="checkResults()"><label for="checkResult"> Check Results</label> </button>
+            </div>
+            <div class="row m-3" id="again">
+                <button class="bg-warning rounded-3 " name="restart" id="restart" onclick="location.reload()"><label for="restart">Restart Game</label> </button>
+            </div>
+        </div>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container px-4 px-lg-5 "><p class="m-0 text-center text-white">M6-Practica 2</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

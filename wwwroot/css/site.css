@@ -8,11 +8,83 @@ html {
   }
 }
 
-html {
-  position: relative;
-  min-height: 100%;
-}
+
 
 body {
-  margin-bottom: 60px;
+    background-image: url('/img/retro.bmp');
+}
+/*Title Text Stuff*/
+@font-face {
+    font-family: neon;
+    src: url(https://db.onlinewebfonts.com/t/790bec5e75015631c8b9e0df43a93061.ttf);
+}
+
+.container {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.cyber {
+    margin-top: 80px;
+    /*font-family: neon;*/
+    color: #FB42D4;
+    /*font-size: 9vw;
+    line-height: 9vw;*/
+    text-shadow: 0 0 3vw #F40AD5;
+    /*margin-left: -150px;*/
+    cursor: default;
+}
+
+.zone {
+    margin-top: 10px;
+    /*font-family: neon;*/
+    color: #42FDEB;
+    /*font-size: 9vw;
+    line-height: 9vw;*/
+    text-shadow: 0 0 3vw #23F6EF;
+    /*/margin-left: 150px;*/
+    cursor: default;
+}
+
+/*Cyber Animation Stuff*/
+.cyber {
+    animation: cyber 2.2s ease-in infinite;
+    -moz-animation: cyber 2.2s ease-in infinite;
+    -webkit-animation: cyber 2.2s ease-in infinite;
+}
+
+@keyframes cyber {
+    0%, 100% {
+        text-shadow: 0 0 .5vw #FA0AC1, 0 0 2vw #FA0AC1, 0 0 6vw #FA0AC1, 0 0 6vw #FA0AC1, 0 0 .2vw #FE0BB8, .5vw .5vw .1vw #800964;
+        color: #FE0BB8;
+    }
+
+    50% {
+        text-shadow: 0 0 .5vw #800C5B, 0 0 1vw #800C5B, 0 0 4vw #800C5B, 0 0 4vw #800C5B, 0 0 .2vw #800C5B, .5vw .5vw .1vw #40043A;
+        color: #800964;
+    }
+}
+/*Zone Animation Stuff*/
+.zone {
+    animation: zone 3.2s ease-out infinite;
+    -moz-animation: zone 3.2s ease-out infinite;
+    -webkit-animation: zone 3.2s ease-out infinite;
+    -o-animation: zone 3.2s ease-out infinite;
+}
+
+@keyframes zone {
+    0%, 100% {
+        text-shadow: 0 0 .5vw #10E19F, 0 0 2vw #10E19F, 0 0 6vw #10E19F, 0 0 6vw #10E19F, 0 0 .2vw #8BFEFD, .5vw .5vw .1vw #148270;
+        color: #28E7DE;
+    }
+
+    50% {
+        text-shadow: 0 0 .5vw #088140, 0 0 1vw #088140, 0 0 4vw #088140, 0 0 4vw #088140, 0 0 .2vw #088140, .5vw .5vw .1vw #0A4930;
+        color: #148C6B;
+    }
+}
+.techKnow {
+    height:12rem;
+    width:12rem;
 }

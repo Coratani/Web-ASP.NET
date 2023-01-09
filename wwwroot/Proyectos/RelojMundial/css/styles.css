@@ -1,0 +1,32 @@
+#mapa {
+    width: 960px;
+    height: 540px;
+}
+
+ul {
+    list-style: none;
+
+}
+
+area {
+    cursor: pointer;
+}
+
+#main {
+    background-image: url("../img/fondo3.jpg");
+    background-size: cover;
+}
+
+#canvasContainer {
+    height: 15vh;
+    width: 15vw;
+}
+
+#mapContainer {
+    margin-top: 10rem;
+}
+
+/*canvas {*/
+/*    height: 18rem;*/
+/*    width: 18rem;*/
+/*}*/

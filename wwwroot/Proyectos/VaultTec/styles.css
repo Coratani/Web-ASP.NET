@@ -1,0 +1,319 @@
+
+/**La fuente no es de google fonts, asi que la incluyo en la carpeta del proyecto*/
+@font-face {
+    font-family: monofonto;
+    src: url("fonts/monofonto.otf") format("opentype");
+}
+* [aria-hidden=true]{
+        visibility: hidden;
+    }
+
+.main {
+width:100%;
+padding-left:10em;
+height: 100%;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: blue;
+}
+a:hover{
+    color:aquamarine;
+}
+/* 1 rem es igual a 16px ---- 3rem*16=48px */
+section{
+    padding: 3rem 0;
+}
+/**Divide cada seccion en dos columnas**/
+.split{
+    display: flex;
+    flex-direction: column;
+}
+/*Para que las columnas sean iguales*/
+.split > * {
+    flex-basis: 100%;
+}
+body{
+    font-family: monofonto;
+    line-height:1.6;
+    /*Para hacer mas legibles las letras*/
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+     
+    
+}
+
+body,h1,h2,h3,p{
+    margin:0;
+    margin-bottom: 1rem;
+}
+.flex{
+    display: flex;
+    gap: 2rem;
+}
+
+/***BARRA DE NAVEGACION***/
+.button{
+
+/*Hace transaparente el fondo y el borde del boton*/
+
+border: none;
+background:none;
+
+
+}
+/**Anima el boton para que gire 360 grados cuando se haga click en el,
+ funcionaria mejor con js pero esto es una manera sencilla de hacerlo con css*/
+.button:hover{
+    -webkit-animation:spin 2s infinite;
+    -moz-animation:spin 2s infinite;
+    animation:spin 2s infinite;
+    
+   
+}
+/*Compatibilidad de la animacion con diversos navegadores*/
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+
+}
+.primary-header{
+    justify-content: space-between;
+    width: 100vw;
+    max-height: 0vh;
+   
+    
+}
+.logo{  
+    position: fixed;
+    margin: 0;
+    width: 16vw;
+    height: 8vh;
+}
+nav{
+    width: 100vw;
+}
+.primary-navigation{
+    list-style: none;
+    padding: 2vh;
+    margin:0 0 0 16vw ;
+    background: rgb(182, 18, 18);
+    backdrop-filter: blur(2rem);
+    height: 2vh;
+    width: 100%;
+    font-size:7vmin;
+    position:fixed;
+    flex-direction: row;
+    
+    background: hsl(0 0% 100% / 0.1);
+    /*backdrop filter solo funciona con chrome,android,edge y opera*/
+    backdrop-filter: blur(2rem);
+    /*Con -webkit-backdrop-filter añadimos compatibilidad con Safari y firefox, tanto IOS como android*/
+    -webkit-backdrop-filter: blur(2rem);
+    align-items: center;
+   
+    /*Separacion entre opciones*/
+    gap: 10vw; 
+}
+/*Quitar los puntos detras de los elementos de la lista*/
+ul{
+    list-style-type:none;
+}
+
+
+
+/***Secciones***/
+/*Anuncio*/
+#aside{
+    float: center;
+    position: fixed;
+    top: 10rem;
+    bottom: 0;
+    /*width: 5vw;*/
+    height: 40vh;
+    background: white;
+}
+video{
+    width: 100%;
+    height: 100%;
+}
+.primero{
+    /*Para no hacer tan simple el color de fondo, se mezcla con una imagen de textura*/
+    background: aquamarine url(/img/texture-noise@1x.png) repeat;
+}
+.medio{
+    background: rgba(209, 174, 77, 0.623) url(/img/texture-noise@1x.png) repeat;
+}
+.medio1{
+    background: rgb(117, 57, 57) url(/img/texture-noise@1x.png) repeat;
+}
+.baja{
+    background: rgba(10, 132, 189, 0.623) url(/img/texture-noise@1x.png) repeat;;
+}
+.sponsor{
+padding-top: 0rem;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background: #1D1D1D url(/img/texture-noise@1x.png) repeat;
+    color: #FFF;
+    font-family: 'Didact Gothic', sans-serif;
+    text-transform: uppercase;
+    width: 100%;
+    height: 4vh;
+}
+/*Color de la fuente*/
+h1,h2{
+    color: rgb(247, 239, 127);
+}
+p{
+    color:whitesmoke;
+}
+
+.container{
+margin-inline: auto;    
+width:min(90%, 70.5rem)
+}
+/*Centrar los titulos*/
+.text-center{
+    text-align: center;
+}
+/*Imagenes grandes*/
+#grande{
+    max-width: 100%;
+    max-height: 70%;
+    /*Para centrar la imagen*/
+    /*padding-left: 8rem;*/
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+    display:block;
+    
+}
+
+video{
+    max-width: 100%;
+    max-height: 100%;
+    display:block;
+}
+
+
+    /************640px moviles*******************/
+@media (max-width: 45em) and(max-)  {
+    .split{
+        flex-direction: column;
+       
+    }
+    
+    .split > * {
+        flex-basis: 100%;
+    }
+    /*Se aplica solo a lo que tenga un hermano detras
+    en este caso todo lo que tenga un div detras
+    */
+    .split > * + *{
+        margin-left: 2rem;
+    }
+    .sponsor{
+        padding-top: 10rem;
+        
+        }
+    #grande{
+        max-width: 80%;
+        /*Para centrar la imagen*/
+        padding-left: 0rem;
+    }
+    
+    .primary-navigation{
+        position: fixed;
+        margin:0 0 0 16vw ;
+        background: steelblue;
+        flex-direction: column;
+        /*Funcion*/
+        padding: min(30vh, 10rem) 2em;
+        
+        /*backdrop filter solo funciona con chrome,android,edge y opera*/
+        backdrop-filter: blur(2rem);
+        /*Con -webkit-backdrop-filter añadimos compatibilidad con Safari y firefox, tanto IOS como android*/
+        -webkit-backdrop-filter: blur(2rem);
+        align-items: center;
+        justify-content:space-between;
+        gap: 2rem;
+        align-items:center; 
+        max-width: 50vw;
+        max-height: 100vh;
+        transform: translateX(50%);
+        
+    }
+ 
+    .sponsor{
+        padding-top: 0;
+        
+        }
+    
+    .anuncio[aria-hidden=true]{
+            visibility: hidden;
+        }
+    
+   /* .primary-navigation[data-visible="true"]{
+        transform: translateX(0%);
+    }    */
+
+    
+}
+/*tablet y ordenadores*/
+@media (min-width: 41em) {
+    .split{
+        flex-direction: row;
+    }
+    
+    .split > * {
+        flex-basis: 100%;
+    }
+    .split > * + *{
+        margin-left: 3rem;
+    }
+    #grande{
+        max-width: 80%;
+        
+        padding-left: 10rem;
+    }
+    section{
+        width:100%;
+        
+    }
+    .primary-navigation{
+        font-size:5vmin;
+        width: auto;
+        max-height: 2rem;
+    }
+    .logo{  
+        max-width: 10vw;
+        max-height: 10vh;
+    }
+    #grande{
+        padding:0;
+    }
+    .primary-navigation{
+        
+        margin:0 0 0 16vw ;
+        
+        
+    }
+    
+}

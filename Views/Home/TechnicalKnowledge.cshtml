@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Technical Knowledge";
+}
+
+<div class="container-fluid d-flex  justify-content-center align-content-center text-center">
+    <div class="row g-4">
+        @foreach (var knowledge in ViewBag.VKnowledge)
+        {
+            <div class="col-3">
+                <div class="card h-100 w-80">
+                    <img src="@knowledge.ImageURL" class="card-img-top techKnow align-self-center"  alt="imagen proyecto" />
+                    <div class="card-body" style="background-color:#979C9C">
+                        <h5 class="card-title">@knowledge.Title</h5>
+                        <p class="card-text">@knowledge.Description</p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

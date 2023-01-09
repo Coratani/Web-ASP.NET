@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Elige tu propia historia</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+<div class="container-fluid">
+    <nav class="navbar navbar-right navbar-expand d-flex justify-content-center">
+        <a href="#" class="navbar-brand align-content-center">
+            <!-- Logo Image -->
+            <img class="logo" src="img/logo.png" id="imgLogo" alt="logo">
+            <!-- Logo Text -->
+            <span class="font-weight-bold text-light">ICA</span>
+        </a>
+    </nav>
+    <div class="row m-3">
+        <div class="col-6">
+            <div class="jumbotron text-light" id="storyContainer">
+                <h1 class="display-4"></h1>
+                <form id="adventureForm">
+                    <p class="lead">Logras entrar al <input type="text" maxlength="8"
+                                                            readonly
+                                                            ondrop="drop(event)"
+                                                            ondragover="allowDrop(event)"
+                                                            placeholder="Location" id="Locations" size="10">.
+                        Y esperas pacientemente a tu objetivo.</p>
+                    <p>Los guardias de la mansión te miran de reojo pero afortunadamente tu disfraz de
+                        <input type="text" maxlength="20" readonly placeholder="Disguise" id="Disguises"
+                               ondrop="drop(event)"
+                               ondragover="allowDrop(event)"> logra engañarlos facilmente</p>
+                    <p>Una vez te encuentras en posicion ejecutas a tu objetivo con
+                        <input type="text" maxlength="20" readonly placeholder="Weapon" id="Weapons"
+                               ondrop="drop(event)"
+                               ondragover="allowDrop(event)" size="30">
+                    </p>
+                    <hr class="my-4">
+                    <p>La mision ha sido un exito.</p>
+                    <p class="lead">
+                        <a class="btn btn-primary btn-lg" href="#" role="button"
+                           onclick="resetAdventure()">Restart</a>
+                    </p></form>
+            </div>
+        </div>
+        <div class="col-6" id="endScene">
+
+        </div>
+    </div>
+
+
+</div>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+<script src="js/scripts.js"></script>
+<script>
+    setAnswers();
+    loadEnding();
+</script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+<script src="https://kit.fontawesome.com/7652d2555d.js" crossorigin="anonymous"></script>
+</body>
+</html>
